@@ -1,0 +1,180 @@
+body{
+    background-image: url(5dac5d40e513815d6e3a0312bcdd693a.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    background-color: black;
+    height: 720px;
+    width: 50%;
+    margin-left:auto;
+    margin-right: auto;
+}
+header h1{
+    padding-top: 50px;
+    padding-left: 30px;
+    font-size: 10mm;
+
+}
+.vid{
+    text-align: center;
+    margin-top: 140px;
+}
+
+.PUm{
+    padding-top: 5%;
+    margin-left: 4%;
+    font-size: 5mm;
+    line-height: 1.5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logia img{
+    margin-right: 20rem;
+    padding-top: 20px;
+    border-radius: 40px;
+}
+
+.logia p{
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+}
+
+.logia p{
+    margin-bottom: 117rem;
+    margin-top: -117rem;
+    margin-left: 9rem;
+    padding-bottom: 8.8rem;
+    align-items: baseline;
+}
+
+.logia .b{
+    margin-bottom: 121rem;
+    margin-top: -121rem;
+}
+
+.logia .c{
+    margin-bottom: 124rem;
+    margin-top: -125rem;
+}
+.Mecia{
+    margin-top: -120rem;
+}
+.paramecia img{
+    margin-right: 25rem;
+    padding-top: 20px;
+
+}
+.paramecia p{
+    margin-bottom: 218rem;
+    margin-top: -215rem;
+    margin-left: 9rem;
+    padding-bottom: 8rem;
+    align-items: baseline;
+}
+
+paramecia p{
+    margin-top: -10px;
+}
+
+.paramecia .p-a{
+    margin-bottom: 210rem;
+}
+
+/* .quake{
+    padding-top: 10px;
+    padding-bottom: px;
+} */
+
+.p-b{
+    position: relative;
+    top: -30px;
+}
+
+.p-c{
+    position: relative;
+    top: -80px;
+}
+
+.shadow{
+    position: relative;
+    top: -130px;
+}
+.venom{
+    position: relative;
+    top: -175px;
+}
+.control{
+    position: relative;
+    top: -200px;
+}
+.spirit{
+    position: relative;
+    top: -235px;
+}
+
+.Zoo{
+    position: relative;
+    top: -225rem;
+}
+
+
+.zoan{
+    position: relative;
+    top: -224rem;
+}
+
+.zoan img{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.zoan p{
+    position: relative;
+    top: -55rem;
+    bottom: 40rem;
+    margin-left: 9rem;
+}
+
+.zoan .buda{
+    position: relative;
+    margin-top: 7rem;
+}
+
+.zoan .phoenix{
+    position: relative;
+    margin-top: 7rem;
+}
+
+.zoan .dragon{
+    position: relative;
+    margin-top: 6rem;
+}
+
+.zoan .leopard{
+    position: relative;
+    margin-top: 7rem;
+}
+
+main{
+    background-color: black;
+    height: 9000px;
+    width: 50%;
+    margin-top: 10px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 200px;
+    width: 100%;
+    margin-top:;
+    text-align: center;
+}
