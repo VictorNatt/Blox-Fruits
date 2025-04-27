@@ -1,180 +1,133 @@
-body{
+/* RESET E BASE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     background-image: url(5dac5d40e513815d6e3a0312bcdd693a.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-header{
-    background-color: black;
-    height: 720px;
-    width: 50%;
-    margin-left:auto;
-    margin-right: auto;
-}
-header h1{
-    padding-top: 50px;
-    padding-left: 30px;
-    font-size: 10mm;
-
-}
-.vid{
-    text-align: center;
-    margin-top: 140px;
-}
-
-.PUm{
-    padding-top: 5%;
-    margin-left: 4%;
-    font-size: 5mm;
-    line-height: 1.5;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
 }
 
-.logia img{
-    margin-right: 20rem;
-    padding-top: 20px;
-    border-radius: 40px;
+/* CONTAINER CENTRALIZADO */
+header, main {
+    background-color: black;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-.logia p{
-    font-size: 15px;
+/* TÍTULO */
+header h1 {
+    font-size: 2.5rem;
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 20px;
 }
-a{
+
+/* VÍDEO */
+.vid {
+    text-align: center;
+    margin: 20px 0;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* PARÁGRAFOS GERAIS */
+main p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+/* SEÇÕES DE FRUTAS */
+section {
+    margin-top: 40px;
+}
+
+/* TÍTULOS DAS SEÇÕES */
+h2 {
+    color: gold;
+    margin-bottom: 20px;
+}
+
+/* GALERIAS DE IMAGENS COM DESCRIÇÃO */
+.fruta-galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.fruta-card {
+    background-color: #1e1e1e;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 200px;
+    text-align: center;
+}
+
+.fruta-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: transform 0.3s;
+}
+
+.fruta-card img:hover {
+    transform: scale(1.05);
+}
+
+.fruta-card p {
+    font-size: 0.9rem;
+}
+
+/* LINKS */
+a {
+    color: gold;
     text-decoration: none;
 }
 
-.logia p{
-    margin-bottom: 117rem;
-    margin-top: -117rem;
-    margin-left: 9rem;
-    padding-bottom: 8.8rem;
-    align-items: baseline;
-}
-
-.logia .b{
-    margin-bottom: 121rem;
-    margin-top: -121rem;
-}
-
-.logia .c{
-    margin-bottom: 124rem;
-    margin-top: -125rem;
-}
-.Mecia{
-    margin-top: -120rem;
-}
-.paramecia img{
-    margin-right: 25rem;
-    padding-top: 20px;
-
-}
-.paramecia p{
-    margin-bottom: 218rem;
-    margin-top: -215rem;
-    margin-left: 9rem;
-    padding-bottom: 8rem;
-    align-items: baseline;
-}
-
-paramecia p{
-    margin-top: -10px;
-}
-
-.paramecia .p-a{
-    margin-bottom: 210rem;
-}
-
-/* .quake{
-    padding-top: 10px;
-    padding-bottom: px;
-} */
-
-.p-b{
-    position: relative;
-    top: -30px;
-}
-
-.p-c{
-    position: relative;
-    top: -80px;
-}
-
-.shadow{
-    position: relative;
-    top: -130px;
-}
-.venom{
-    position: relative;
-    top: -175px;
-}
-.control{
-    position: relative;
-    top: -200px;
-}
-.spirit{
-    position: relative;
-    top: -235px;
-}
-
-.Zoo{
-    position: relative;
-    top: -225rem;
-}
-
-
-.zoan{
-    position: relative;
-    top: -224rem;
-}
-
-.zoan img{
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 20px;
-}
-
-.zoan p{
-    position: relative;
-    top: -55rem;
-    bottom: 40rem;
-    margin-left: 9rem;
-}
-
-.zoan .buda{
-    position: relative;
-    margin-top: 7rem;
-}
-
-.zoan .phoenix{
-    position: relative;
-    margin-top: 7rem;
-}
-
-.zoan .dragon{
-    position: relative;
-    margin-top: 6rem;
-}
-
-.zoan .leopard{
-    position: relative;
-    margin-top: 7rem;
-}
-
-main{
-    background-color: black;
-    height: 9000px;
-    width: 50%;
-    margin-top: 10px;
-    margin-left:auto;
-    margin-right: auto;
-}
-
-footer{
+/* FOOTER */
+footer {
     background-color: black;
     color: white;
-    height: 200px;
-    width: 100%;
-    margin-top:;
     text-align: center;
+    padding: 40px 20px;
+    margin-top: 40px;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+    header, main {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .fruta-card {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.6rem;
+    }
+
+    video {
+        width: 100%;
+        height: auto;
+    }
 }
